@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 500px;
+    float: left;  
+    height: 80px;
+}
+ul{
+     float:left;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: square;
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 150px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 220px;
+    height: 40px;
+    background: white;
+    border: 2px solid orange;
+    margin-top: 27px;
+    color: orange;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: white;
+    border: 2px solid orange;
+    margin-top: 27px;
+    color: orange;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: center;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 170px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 3s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 1010px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h3{
+    width: 230px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: 'Times New Roman';
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+}
